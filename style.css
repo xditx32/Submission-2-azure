@@ -1,0 +1,118 @@
+      body {
+          background-color: #eaeaea;
+          border-top: solid 10px #000;
+          color: #333;
+          font-size: .85em;
+          margin: 20;
+          padding: 20;
+          font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+      }
+
+      h1,
+      h2,
+      h3,
+          {
+          color: #000;
+          margin-bottom: 0;
+          padding-bottom: 0;
+      }
+
+      h1 {
+          font-size: 2em;
+      }
+
+      h2 {
+          font-size: 1.75em;
+      }
+
+      h3 {
+          font-size: 1.2em;
+      }
+
+      table {
+          margin-top: 0.75em;
+      }
+
+      th {
+          font-size: 8pt;
+          padding: 5px;
+          font-family: inherit;
+          text-align: center;
+      }
+
+      td {
+          border-right: solid 1px black;
+          border-bottom: solid 1px black;
+          font-size: 8pt;
+          padding: 5px;
+          font-family: inherit;
+          border-left: solid 1px black;
+          border-top: solid 1px black;
+          text-align: center;
+      }
+
+      * {
+          box-sizing: border-box;
+      }
+
+      .text-center {
+          text-align: center;
+      }
+
+      form {
+          max-width: 600px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+
+      form input {
+          margin-bottom: 1rem;
+          background: #fff;
+          border: 1px solid #9c9c9c;
+      }
+
+      form button {
+          background: lightgrey;
+          padding: 0.7em;
+          border: 0;
+      }
+
+      form button:hover {
+          background: gold;
+      }
+
+      label {
+          text-align: right;
+          display: block;
+          padding: 0.5em 1.5em 0.5em 0;
+      }
+
+      input {
+          width: 100%;
+          padding: 0.7em;
+          margin-bottom: 0.5rem;
+      }
+
+      input:focus {
+          outline: 3px solid gold;
+      }
+
+      @media (min-width: 400px) {
+          form {
+              overflow: hidden;
+          }
+
+          label {
+              float: left;
+              width: 200px;
+          }
+
+          input {
+              float: left;
+          }
+
+          button {
+              float: right;
+              width: calc(100% - 200px);
+          }
+      }
